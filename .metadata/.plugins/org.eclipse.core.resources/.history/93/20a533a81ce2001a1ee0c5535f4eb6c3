@@ -1,0 +1,125 @@
+package com.mercadolibre.services;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.MediaType;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import com.mercadolibre.vo.*;
+
+public class Main {
+
+	static String URL_API_ITEMS;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Selección de un ID user por parte del usuario
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Choose an Id user");
+		
+		int userId = scan.nextInt();
+		//Generación de String correspondiente a los datos traidos de la Api
+		String responseItems = parseJSON(generateURL (userId));
+		
+		//Si se pudo traer correctamente los datos de la Api, comienza la ejecución
+		if (responseItems.length() > 0) {
+			//Creacion de lista con objetos VOPublication, correspondientes a las publicaciones
+			//del usuario ingresado
+			ArrayList <VOPublication> publications = JSONItemsToList(responseItems);
+		
+			
+			try {
+					//Generación de archivo TXT
+					String route = "C:/Users/Public/items.txt";
+			        FileWriter writer = new FileWriter(route);
+			        BufferedWriter bw = new BufferedWriter (writer);
+			        bw.write("User Id: ");
+			        bw.write(""+userId);
+			        bw.newLine();
+			        
+			        for (VOPublication p: publications) {
+			        	StringBuilder str = new StringBuilder ();
+			        	str.append(p.toString());
+			        	bw.write(str.toString());
+			        	bw.newLine();
+			        }
+			        
+			        bw.close();
+
+			} catch (IOException e) {
+			        e.printStackTrace();
+			}
+		}
+		
+		else {
+			System.out.print("The user " + userId + "is invalid");
+		}
+	}
+	
+	public static ArrayList <VOPublication> JSONItemsToList (String response) {
+	
+		//Generacion de lista de publicaciones
+		ArrayList <VOPublication> publications = new ArrayList <VOPublication>();
+		
+		String json = response;
+		
+		//Generación de objetos y array JSON desde un String
+		JSONObject obj = new JSONObject (json);
+		JSONArray array = obj.getJSONArray("results");
+		
+		for (int i = 0 ; i < array.length(); i ++) {
+			
+			//A partir de los objetos JSON, completamos las variables de las publicaciones
+			//con los datos correspondientes
+			VOPublication publication = new VOPublication();
+			publication.setId(array.getJSONObject(i).getString("id"));
+			publication.setTitle(array.getJSONObject(i).getString("title"));
+			publication.setCategoryId(array.getJSONObject(i).getString("category_id"));
+			String category = array.getJSONObject(i).getString("domain_id");
+			category = category.substring(4);
+			publication.setName(category);
+			
+			//Se agrega la publicacion con los datos correspondientes a la lista
+			publications.add(publication);
+		}
+		
+		return publications;
+	}
+
+	
+	public static String generateURL (int idSeller) {
+		
+		//Retorno de la url de la api que corresponde a cada user
+		return "https://api.mercadolibre.com/sites/MLA/search?seller_id=" + idSeller;
+	}
+	
+	//Dado una url, devuelve en forma de cadena la repuesta JSON
+	public static String parseJSON (String url) {
+		
+		try {
+			Client client = ClientBuilder.newClient();
+			WebTarget target = client.target(url);
+			String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
+			String json = response;
+			return response;
+		}catch(Exception e) {
+			System.out.print(e);
+			return "";
+		}
+		
+		
+		
+	}
+	
+}

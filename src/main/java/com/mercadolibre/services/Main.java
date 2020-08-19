@@ -24,20 +24,29 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//Selección de un ID user
+		//Selección de un ID user por parte del usuario
 		Scanner scan = new Scanner (System.in);
 		System.out.println("Choose an Id user");
 		
 		int userId = scan.nextInt();
+		//Generación de String correspondiente a los datos traidos de la Api
 		String responseItems = parseJSON(generateURL (userId));
 		
+		//Si se pudo traer correctamente los datos de la Api, comienza la ejecución
 		if (responseItems.length() > 0) {
+			//Creacion de lista con objetos VOPublication, correspondientes a las publicaciones
+			//del usuario ingresado
 			ArrayList <VOPublication> publications = JSONItemsToList(responseItems);
 		
 			
 			try {
-			        FileWriter writer = new FileWriter("C:/Users/Usuario/desktop/items.txt");
+					//Generación de archivo TXT
+					String route = "C:/Users/Public/items.txt";
+			        FileWriter writer = new FileWriter(route);
 			        BufferedWriter bw = new BufferedWriter (writer);
+			        bw.write("User Id: ");
+			        bw.write(""+userId);
+			        bw.newLine();
 			        
 			        for (VOPublication p: publications) {
 			        	StringBuilder str = new StringBuilder ();
@@ -58,17 +67,22 @@ public class Main {
 		}
 	}
 	
+	//Transforma una cadena en una lista de publicaciones
 	public static ArrayList <VOPublication> JSONItemsToList (String response) {
-		
+	
+		//Generacion de lista de publicaciones
 		ArrayList <VOPublication> publications = new ArrayList <VOPublication>();
 		
 		String json = response;
 		
+		//Generación de objetos y array JSON desde un String
 		JSONObject obj = new JSONObject (json);
 		JSONArray array = obj.getJSONArray("results");
 		
 		for (int i = 0 ; i < array.length(); i ++) {
 			
+			//A partir de los objetos JSON, completamos las variables de las publicaciones
+			//con los datos correspondientes
 			VOPublication publication = new VOPublication();
 			publication.setId(array.getJSONObject(i).getString("id"));
 			publication.setTitle(array.getJSONObject(i).getString("title"));
@@ -77,18 +91,21 @@ public class Main {
 			category = category.substring(4);
 			publication.setName(category);
 			
-			
+			//Se agrega la publicacion con los datos correspondientes a la lista
 			publications.add(publication);
 		}
 		
 		return publications;
 	}
 
+	//Dado un idSeller, genera la url de la api correspondiente
 	public static String generateURL (int idSeller) {
 		
+		//Retorno de la url de la api que corresponde a cada user
 		return "https://api.mercadolibre.com/sites/MLA/search?seller_id=" + idSeller;
 	}
 	
+	//Dado una url, devuelve en forma de cadena la repuesta JSON
 	public static String parseJSON (String url) {
 		
 		try {

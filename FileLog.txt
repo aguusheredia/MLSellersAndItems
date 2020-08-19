@@ -1,0 +1,251 @@
+User Id: 179571326
+ID = MLA863267784
+ Title = Monitor Dell P2018h Led 19.5  Negro 110v/220v
+ Category ID = MLA14407
+ Category name = COMPUTER_MONITORS;
+
+ID = MLA870594510
+ Title = Access Point, Router Linksys Max-stream Ea7300 Negro 100v/240v 1 Unidad
+ Category ID = MLA430901
+ Category name = ROUTERS_AND_WIRELESS_SYSTEMS;
+
+ID = MLA663208480
+ Title = Notebook Laptop Dell Inspiron I5 16g 256ssd Ubuntu Ram
+ Category ID = MLA1652
+ Category name = NOTEBOOKS;
+
+ID = MLA740540307
+ Title = Servidor Poweredge Dell T40 Xeon E3-1225 8gb 1tb Hd Free Dos
+ Category ID = MLA1649
+ Category name = DESKTOP_COMPUTERS;
+
+ID = MLA614270244
+ Title = Ups Apc 1000va Para Pc Gamer Simil Bx1100 Bv1000i-ar Estabilizador Y Protector De Tension Gtia Oficial 2 Años
+ Category ID = MLA1720
+ Category name = STABILIZERS_AND_UPS;
+
+ID = MLA673439018
+ Title = Notebook Laptop Dell Inspiron I3 8gb 1tb 15,6 Fhd Ubuntu Teclado Con Ñ Gtia De Tienda Oficial - Factura A Y B
+ Category ID = MLA1652
+ Category name = NOTEBOOKS;
+
+ID = MLA827806651
+ Title = Pc Dell Optiplex I5 8gb 1tb Win10p + Monitor P2018h 3 Gtias
+ Category ID = MLA1649
+ Category name = DESKTOP_COMPUTERS;
+
+ID = MLA609550688
+ Title = Ups Apc Easy 500va Estabilizador Y Protector De Tension Con Ahorro De Energia Gtia Oficial 2 Años
+ Category ID = MLA1720
+ Category name = STABILIZERS_AND_UPS;
+
+ID = MLA619999038
+ Title = Ups Apc 550va 3 Tomas Gtia Oficial 2 Años Estabilizador Y Protector De Tension Con Ahorro De Energia
+ Category ID = MLA1720
+ Category name = STABILIZERS_AND_UPS;
+
+ID = MLA833705652
+ Title = Notebook Laptop Dell Inspiron I5 10g 16g 256gb Win10 Ram
+ Category ID = MLA1652
+ Category name = NOTEBOOKS;
+
+ID = MLA867089021
+ Title = Servidor Rack Dell Poweredge R240 Xeon 32gb 4tb Gtia 
+ Category ID = MLA1649
+ Category name = DESKTOP_COMPUTERS;
+
+ID = MLA625205834
+ Title = Ups Apc 800va 6 T Estabilizador Y Protector De Tension Gtia Oficial 2 Años Bx800 Para Tv, Play, Equipos De Audio
+ Category ID = MLA1720
+ Category name = STABILIZERS_AND_UPS;
+
+ID = MLA837842655
+ Title = Notebook Dell Inspiron I7 256ssd 32gb 15.6 W10 Gforce Oferta
+ Category ID = MLA1652
+ Category name = NOTEBOOKS;
+
+ID = MLA838441150
+ Title = Servidor Poweredge Dell T40 Xeon E3-2224 16gb 1tb Hd Gtia
+ Category ID = MLA1649
+ Category name = DESKTOP_COMPUTERS;
+
+ID = MLA839633052
+ Title = Ups Apc Easy Bv500i-ar 500va Bv500 Gtia Oficial 2 Años
+ Category ID = MLA1720
+ Category name = STABILIZERS_AND_UPS;
+
+ID = MLA863060151
+ Title = Router Wifi Linksys Ea6100 Dualband Usb 3.0 Control Parental
+ Category ID = MLA430901
+ Category name = ROUTERS_AND_WIRELESS_SYSTEMS;
+
+ID = MLA836303021
+ Title = Notebook Dell Latitude I5 16gb 256ssd 14 Win10 Pro Ram
+ Category ID = MLA1652
+ Category name = NOTEBOOKS;
+
+ID = MLA867877670
+ Title = Servidor Rack Dell Poweredge R240 Xeon 16gb 2tb Gtia Cuotas
+ Category ID = MLA1649
+ Category name = DESKTOP_COMPUTERS;
+
+ID = MLA701423768
+ Title = Switch Cisco 8 Puertos Port 10/100/1000 Giga Sg100 Oferta Para Hogar Y Empresa - Garantia Oficial - Factura A Y B
+ Category ID = MLA1708
+ Category name = NETWORK_SWITCHES;
+
+ID = MLA846968526
+ Title = Ups Apc Bv1000 Estabilza Y Protege Tensión Entrega Inmediata
+ Category ID = MLA1720
+ Category name = STABILIZERS_AND_UPS;
+
+ID = MLA833393643
+ Title = Notebook Laptop Dell Inspiron I5 10g 8g 256gb Ubuntu Oferta
+ Category ID = MLA1652
+ Category name = NOTEBOOKS;
+
+ID = MLA702423108
+ Title = Pc De Escritorio Dell I5 8gb Hd 1tb Win10 Pro Vostro Ram Para Uso Hogar Y Empresa - Garantia Oficial
+ Category ID = MLA1649
+ Category name = DESKTOP_COMPUTERS;
+
+ID = MLA659248541
+ Title = Monitor Gamer Hd Dell Led Profesional 20 Dp Vertical
+ Category ID = MLA14407
+ Category name = COMPUTER_MONITORS;
+
+ID = MLA863064747
+ Title = Router Linksys Wifi Ea7300 Mimo Smart Router Ac1750
+ Category ID = MLA430901
+ Category name = ROUTERS_AND_WIRELESS_SYSTEMS;
+
+ID = MLA677347584
+ Title = Notebook Dell Inspiron I3 8gb 1tb 14 Win 10 Teclado Con Ñ Garantia De Tienda Oficial - Factura A Y B Ram
+ Category ID = MLA1652
+ Category name = NOTEBOOKS;
+
+ID = MLA861373243
+ Title = Servidor Rack Dell Poweredge R240 Xeon 32gb 4tb Gtia Cuotas
+ Category ID = MLA1649
+ Category name = DESKTOP_COMPUTERS;
+
+ID = MLA846965428
+ Title = Ups Apc Bv500 Estabilizador Protector Tension Entreg Inmedit
+ Category ID = MLA1720
+ Category name = STABILIZERS_AND_UPS;
+
+ID = MLA834430429
+ Title = Notebook Dell Inspiron I7 256ssd + 480ssd 16gb W10gforce 
+ Category ID = MLA1652
+ Category name = NOTEBOOKS;
+
+ID = MLA862050665
+ Title = Servidor Poweredge Dell T40 Intel E3-2224 16gb 1tb Hd Cuotas
+ Category ID = MLA1649
+ Category name = DESKTOP_COMPUTERS;
+
+ID = MLA604049998
+ Title = Ups Apc Easy Bv650i-ar 650va Gtia Oficial 2 Años Bv650
+ Category ID = MLA1720
+ Category name = STABILIZERS_AND_UPS;
+
+ID = MLA723629779
+ Title = Notebook Dell Vostro I5 14 8g 256ssd Win10 Pro Teclado Con Ñ Gtia De Tienda Oficial - Factura A Y B
+ Category ID = MLA1652
+ Category name = NOTEBOOKS;
+
+ID = MLA673280398
+ Title = Servidor Rack Dell Poweredge R240 Xeon E-2124 8gb 2tb Gtia
+ Category ID = MLA1649
+ Category name = DESKTOP_COMPUTERS;
+
+ID = MLA763387249
+ Title = Monitor Dell 22 Profesional P2219h 1080 60hz Vertical
+ Category ID = MLA14407
+ Category name = COMPUTER_MONITORS;
+
+ID = MLA634471245
+ Title = Scanner Portátil De Mano Iris Book 3 Iriscan Ocr Microsd Usb
+ Category ID = MLA72721
+ Category name = SCANNERS;
+
+ID = MLA812781294
+ Title = Notebook Dell Vostro I5 16gb 256ssd 14hd Win10 Profesional
+ Category ID = MLA1652
+ Category name = NOTEBOOKS;
+
+ID = MLA697896424
+ Title = Pc Dell Optiplex Ssf I5 8gb 1tb Win10pro 3 Años Gtía Ram
+ Category ID = MLA1649
+ Category name = DESKTOP_COMPUTERS;
+
+ID = MLA604168468
+ Title = Ups Apc 550va 3 Tomas Gtia Oficial 2 Años Bx550  Estabilizador Y Protector De Tension Con Ahorro De Energia
+ Category ID = MLA1720
+ Category name = STABILIZERS_AND_UPS;
+
+ID = MLA609714711
+ Title = Ups Apc Back-ups Pro 550va 230 Estabilizador Y Protector De Tensión Con Ahorro De Energia Gtia Oficial Br550
+ Category ID = MLA1720
+ Category name = STABILIZERS_AND_UPS;
+
+ID = MLA872852300
+ Title = Notebook Hp Elitebook 840 G6 I7 16gb 512ssd 14 Win10p Ram
+ Category ID = MLA1652
+ Category name = NOTEBOOKS;
+
+ID = MLA654228009
+ Title = Pc Dell Optiplex Intel I5 4gb 1tb Windows 10 Pro Oferta
+ Category ID = MLA1649
+ Category name = DESKTOP_COMPUTERS;
+
+ID = MLA673321805
+ Title = Ups Apc 1500va Estabilizador Y Protector De Tension - Alto Rendimiento Para Pc De Hogar Y Oficina Gtia 2años
+ Category ID = MLA1720
+ Category name = STABILIZERS_AND_UPS;
+
+ID = MLA609116302
+ Title = Ups Apc 1500va Con Ahorro De Energa Estabilizador Y Protector De Tension Gtia Oficial Ideal Para Uso Gamer
+ Category ID = MLA1720
+ Category name = STABILIZERS_AND_UPS;
+
+ID = MLA837856975
+ Title = Notebook Laptop Dell Inspiron I5 10g 32g 256gb Win10 Ram
+ Category ID = MLA1652
+ Category name = NOTEBOOKS;
+
+ID = MLA800415543
+ Title = Servidor Rack Dell Poweredge R240 Xeon 8gb 2tb Gtia Cuotas
+ Category ID = MLA1649
+ Category name = DESKTOP_COMPUTERS;
+
+ID = MLA609113448
+ Title = Ups Apc 650va Back 3 Tomas Estabilizador Y Protector De Tension Con Ahorro De Energia Gtia Oficial Bx650
+ Category ID = MLA1720
+ Category name = STABILIZERS_AND_UPS;
+
+ID = MLA762122266
+ Title = Dock Universal Dell D6000 Usb A 3.0 Tipo C Hdmi Display Port
+ Category ID = MLA3581
+ Category name = COMPUTER_EQUIPMENT_AND_SPARE_PARTS;
+
+ID = MLA870125549
+ Title = Notebook Laptop Dell Inspiron I5 16g 256ssd + 1tb Ubuntu Ram
+ Category ID = MLA1652
+ Category name = NOTEBOOKS;
+
+ID = MLA866765282
+ Title = Servidor Rack Dell Poweredge R240 Xeon 16gb 2tb Gtia Cuotas
+ Category ID = MLA1649
+ Category name = DESKTOP_COMPUTERS;
+
+ID = MLA859898732
+ Title = Switch Cisco Semi Admin 24 Puertos 10/100 2 Giga Sf220-24-k9
+ Category ID = MLA1708
+ Category name = NETWORK_SWITCHES;
+
+ID = MLA846185645
+ Title = Iris Pen Air 7 Lapiz Escaner Portátil Usb Ocr Traductor
+ Category ID = MLA72721
+ Category name = SCANNERS;
+

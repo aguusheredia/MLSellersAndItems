@@ -2,6 +2,8 @@ package com.mercadolibre.vo;
 
 public class VOPublication {
 
+	//Una publication debe tener 4 características:
+	//Id del item, titulo del item, id de la categoria y nombre de la categoria.
 	private String id;
 	private String title;
 	private String categoryId;
